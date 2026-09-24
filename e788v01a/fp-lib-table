@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LR2021_e788v01a") (type "KiCad") (uri "${KIPRJMOD}/LR2021_e788v01a.pretty") (options "") (descr ""))
+)

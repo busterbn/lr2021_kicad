@@ -1,0 +1,9 @@
+# Altium sources and raw import (Semtech originals, kept locally)
+altium/
+import_backup/
+
+# KiCad
+*-backups/
+*.lck
+~*.lck
+fp-info-cache

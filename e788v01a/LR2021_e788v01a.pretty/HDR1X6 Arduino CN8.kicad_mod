@@ -1,0 +1,264 @@
+(footprint "HDR1X6 Arduino CN8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 15.876958 -0.05534 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e8911b57-dac9-415c-822c-e5ba629d2ffa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "Header 6"
+		(at -4.004129 -2.937002 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3db0c300-426c-4aba-825e-e348267cb09b")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "7a8e8ea4-92fb-460f-9f64-18bba671071f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "Header, 6-Pin with Arduino pinout; CN8"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "448250df-10ee-4359-bba8-a76318f93e34")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "LATESTREVISIONDATE" "17-Jul-2002"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "57914274-8ed6-4878-a8f2-329827b7cfec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "4eaebaeb-1089-4429-b77d-e42d6ef39c4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "PUBLISHER" "Altium Limited"
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "90be9e27-7de4-491a-83dd-1aee1185bb23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "LR2021_e788v01a_868_915_eval_module.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4576093e-b8fa-4080-ab22-1f3c659fa1db")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 13.97 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e160ca89-23d9-4acf-b35f-9388c0e2949c")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end 13.97 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c61bb57-f59d-4c8e-a5c1-4d3926382e98")
+	)
+	(fp_line
+		(start 13.97 -1.27)
+		(end 13.97 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf268aff-729d-4902-acff-1a2b02d1f310")
+	)
+	(fp_text user "A0"
+		(at -0.002349 1.97673 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1f5f1768-d23e-41a5-8f34-b3c75959afc5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "A1"
+		(at 2.264361 1.97674 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "acaeb924-8152-4fa4-bc1d-84a34610ab6b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "A2"
+		(at 4.897641 2.02674 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7399ab5-b8b0-4cd6-9ebb-3b954778e517")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "A3"
+		(at 7.697641 1.97674 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21efd744-2238-47c4-9bbe-85c720957727")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "A4"
+		(at 10.197641 1.97674 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "40505a5a-a110-44cf-80c7-075dafb00590")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(fp_text user "A5"
+		(at 12.797651 1.97673 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5fdb1b69-791a-4a96-81d7-191dbf09dc92")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(remove_unused_layers no)
+		(uuid "fd00bf2f-a0b9-44dc-bba6-e8f4ef4fdcce")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a1b0a337-a33b-4e9b-989c-7d3b355e7bfe")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "501e57f0-389f-4d4f-a900-e43c50b7621b")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "c85e4081-5e41-476d-8d6e-c89c80529deb")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b9236f1f-ac78-4b48-817c-f58d9b277fd6")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6bf1bf82-87b0-46a0-89ce-28bfd98601dc")
+	)
+	(embedded_fonts no)
+)

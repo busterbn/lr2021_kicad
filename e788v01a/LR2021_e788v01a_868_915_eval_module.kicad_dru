@@ -1,0 +1,54 @@
+(version 1)
+# Translated from the Altium PcbDoc rules (Rules6). Later rules take precedence, as lower Altium priority numbers did.
+# Netclass Default: Clearance 4.9213 mil, Width All pref 5.9 mil, RoutingVias 15.748/7.874 mil, DiffPairs 15/10 mil.
+# Netclass RF: the Altium auto-named nets NetL*, NetC*, NetU*, NetA* used by Clearance_RF_GND_Top.
+
+(rule "Width_All"
+	(constraint track_width (min 0.127mm) (opt 0.15mm) (max 2mm)))
+
+(rule "Width_VCC"
+	(condition "A.NetName == 'VBAT' || A.NetName == 'VDCC'")
+	(constraint track_width (min 0.2mm) (opt 0.8mm) (max 2mm)))
+
+(rule "Width_GND"
+	(condition "A.NetName == 'GND'")
+	(constraint track_width (min 0.2mm) (opt 0.3mm) (max 3mm)))
+
+(rule "HoleSize"
+	(constraint hole_size (min 0.2mm) (max 3.6mm)))
+
+(rule "RoutingVias"
+	(condition "A.Type == 'Via'")
+	(constraint via_diameter (min 0.4mm) (opt 0.4mm) (max 0.5mm))
+	(constraint hole_size (min 0.2mm) (opt 0.2mm) (max 0.25mm)))
+
+(rule "Clearance_RF_GND_Top"
+	(layer F.Cu)
+	(condition "A.Type == 'Zone' && A.NetName == 'GND' && B.hasNetclass('RF')")
+	(constraint clearance (min 0.2mm)))
+
+(rule "Clearance_RF_GND_Bot"
+	(layer B.Cu)
+	(condition "A.Type == 'Zone' && A.NetName == 'GND' && (B.NetName == 'Net-(ANT_HF-Signal)' || B.NetName == 'Net-(ANT_LF-Signal)')")
+	(constraint clearance (min 0.2mm)))
+
+(rule "PolygonConnect_all"
+	(constraint zone_connection solid))
+
+(rule "PolygonConnect_header"
+	(condition "A.NetName == 'GND' && (A.memberOfFootprint('LR2021_e788v01a:H2X4-SMD-2.54') || A.memberOfFootprint('LR2021_e788v01a:HDR*') || A.memberOfFootprint('LR2021_e788v01a:MODULE14P*') || A.memberOfFootprint('LR2021_e788v01a:HW4-2.0-00D'))")
+	(constraint zone_connection thermal_reliefs)
+	(constraint thermal_spoke_width (min 0.8mm))
+	(constraint thermal_relief_gap (min 0.25mm)))
+
+(rule "PolygonConnect_SMD"
+	(condition "A.NetName == 'GND' && (A.memberOfFootprint('LR2021_e788v01a:c_402_smd') || A.memberOfFootprint('LR2021_e788v01a:r_402_smd') || A.memberOfFootprint('LR2021_e788v01a:lqw_402_smd') || A.memberOfFootprint('LR2021_e788v01a:DFN8_3X3-0P65_506DB-A_OSI'))")
+	(constraint zone_connection thermal_reliefs)
+	(constraint thermal_spoke_width (min 0.55mm))
+	(constraint thermal_relief_gap (min 0.15mm)))
+
+(rule "PolygonConnect_SMD_0201"
+	(condition "A.NetName == 'GND' && (A.memberOfFootprint('LR2021_e788v01a:LQP_201_smd') || A.memberOfFootprint('LR2021_e788v01a:r_201_smd') || A.memberOfFootprint('LR2021_e788v01a:c_201_smd') || A.memberOfFootprint('LR2021_e788v01a:LQW_201_smd') || A.memberOfFootprint('LR2021_e788v01a:SLP0603P2X3F') || A.memberOfFootprint('LR2021_e788v01a:Ferrite_201_smd') || A.memberOfFootprint('LR2021_e788v01a:SW4-SMD-4.5X3.8X1.8MM-90D') || A.memberOfFootprint('LR2021_e788v01a:OLED30P-0.7-24.74X16.9MM'))")
+	(constraint zone_connection thermal_reliefs)
+	(constraint thermal_spoke_width (min 0.35mm))
+	(constraint thermal_relief_gap (min 0.15mm)))
