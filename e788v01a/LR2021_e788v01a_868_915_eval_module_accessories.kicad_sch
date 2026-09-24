@@ -22970,7 +22970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a0b04ee-8c40-470e-89db-8b2fe8e789ee")
-		(property "Reference" "K2_RESET"
+		(property "Reference" "K2_RESET1"
 			(at 140 339.489 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23100,7 +23100,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45/52a010f0-de47-46b4-9541-17dcb44a4527"
-					(reference "K2_RESET")
+					(reference "K2_RESET1")
 					(unit 1)
 				)
 			)
@@ -25160,7 +25160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b867ecd-fd72-4835-aea3-73dfabd348d1")
-		(property "Reference" "K1_USER"
+		(property "Reference" "K1_USER1"
 			(at 140 316.489 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25290,7 +25290,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45/52a010f0-de47-46b4-9541-17dcb44a4527"
-					(reference "K1_USER")
+					(reference "K1_USER1")
 					(unit 1)
 				)
 			)
@@ -26091,7 +26091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a796522c-00a8-4460-b404-8a5a8d54aacc")
-		(property "Reference" "J7_SWD"
+		(property "Reference" "J7_SWD1"
 			(at 139.75 136.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26234,7 +26234,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45/52a010f0-de47-46b4-9541-17dcb44a4527"
-					(reference "J7_SWD")
+					(reference "J7_SWD1")
 					(unit 1)
 				)
 			)

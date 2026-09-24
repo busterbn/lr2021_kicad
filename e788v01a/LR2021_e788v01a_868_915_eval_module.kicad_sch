@@ -3509,24 +3509,6 @@
 				)
 			)
 			(symbol "Logo_1_0"
-				(pin passive line
-					(at 0 0 180)
-					(length 0)
-					(name "L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -79892,7 +79874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13be4420-5c64-47d5-8851-acf11b540be5")
-		(property "Reference" "IDCC"
+		(property "Reference" "IDCC1"
 			(at 268.002 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -79969,7 +79951,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "IDCC")
+					(reference "IDCC1")
 					(unit 1)
 				)
 			)
@@ -81734,9 +81716,6 @@
 				)
 			)
 		)
-		(pin "0"
-			(uuid "07fb674b-45dc-47fd-bfb9-e9e4da73d8fb")
-		)
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
@@ -81924,7 +81903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29925e87-de97-4995-9808-4503a7c8bd42")
-		(property "Reference" "Shield"
+		(property "Reference" "Shield1"
 			(at 533.412 382.983 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -81986,7 +81965,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "Shield")
+					(reference "Shield1")
 					(unit 1)
 				)
 			)
@@ -84243,7 +84222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ee74493-046b-4a8d-94ba-a5ce16880c8d")
-		(property "Reference" "ANT_LF"
+		(property "Reference" "ANT_LF1"
 			(at 463.692 103.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84322,7 +84301,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "ANT_LF")
+					(reference "ANT_LF1")
 					(unit 1)
 				)
 			)
@@ -84518,7 +84497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51e02680-5310-4bf0-b093-ba8926631718")
-		(property "Reference" "J1_DISP"
+		(property "Reference" "J1_DISP1"
 			(at 213.582 249.301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -84637,7 +84616,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "J1_DISP")
+					(reference "J1_DISP1")
 					(unit 1)
 				)
 			)
@@ -85543,7 +85522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ab7dd5a-3a6a-4497-a26e-c84fd4c9a1ae")
-		(property "Reference" "J3_DISP"
+		(property "Reference" "J3_DISP1"
 			(at 250.412 280.543 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85662,7 +85641,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "J3_DISP")
+					(reference "J3_DISP1")
 					(unit 1)
 				)
 			)
@@ -86551,7 +86530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "631f56db-d356-4e4e-ad6c-db630c193ba9")
-		(property "Reference" "868M"
+		(property "Reference" "868M1"
 			(at 524.892 347.013 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86640,7 +86619,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "868M")
+					(reference "868M1")
 					(unit 1)
 				)
 			)
@@ -86910,7 +86889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65a7020c-21eb-4d4c-b40d-c2db2b706aa7")
-		(property "Reference" "Logo ESD"
+		(property "Reference" "Logo ESD1"
 			(at 483.982 383.421 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86966,13 +86945,10 @@
 				)
 			)
 		)
-		(pin "0"
-			(uuid "ff064e57-925e-416b-bdff-16b07b28b083")
-		)
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "Logo ESD")
+					(reference "Logo ESD1")
 					(unit 1)
 				)
 			)
@@ -86989,7 +86965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65af599d-39e5-4fba-b904-e91476ea5812")
-		(property "Reference" "J2_DISP"
+		(property "Reference" "J2_DISP1"
 			(at 213.582 278.765 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87114,7 +87090,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "J2_DISP")
+					(reference "J2_DISP1")
 					(unit 1)
 				)
 			)
@@ -87440,9 +87416,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "0"
-			(uuid "59d8fdab-8327-462c-96c8-aceaa01f8798")
 		)
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
@@ -87957,9 +87930,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "0"
-			(uuid "2e684d08-1059-4fd8-9ad8-193dd0ca8315")
 		)
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
@@ -92428,7 +92398,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7ea922d-47e6-43b8-ae1d-40fea06d92a8")
-		(property "Reference" "915M"
+		(property "Reference" "915M1"
 			(at 525.392 354.013 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -92517,7 +92487,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "915M")
+					(reference "915M1")
 					(unit 1)
 				)
 			)
@@ -93639,7 +93609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be86d11f-017e-4576-ac31-7a0811c84118")
-		(property "Reference" "Other"
+		(property "Reference" "Other1"
 			(at 525.392 361.013 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93728,7 +93698,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "Other")
+					(reference "Other1")
 					(unit 1)
 				)
 			)
@@ -93745,7 +93715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1aa23e3-1678-43a9-afe8-c3b2bcc59926")
-		(property "Reference" "Logo Recycling"
+		(property "Reference" "Logo Recycling1"
 			(at 483.982 386.421 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93801,13 +93771,10 @@
 				)
 			)
 		)
-		(pin "0"
-			(uuid "87fb9749-1eb4-4faf-8e08-5487b131b9ef")
-		)
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "Logo Recycling")
+					(reference "Logo Recycling1")
 					(unit 1)
 				)
 			)
@@ -93824,7 +93791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3cece31-f688-4528-9c5f-b94c26ae9296")
-		(property "Reference" "R4_N"
+		(property "Reference" "R4_N1"
 			(at 335.996 259.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93912,7 +93879,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "R4_N")
+					(reference "R4_N1")
 					(unit 1)
 				)
 			)
@@ -94356,7 +94323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c88f08fb-e0ac-4be1-9891-d47eadb12e00")
-		(property "Reference" "J4_DISP"
+		(property "Reference" "J4_DISP1"
 			(at 250.988 249.301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -94469,7 +94436,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "J4_DISP")
+					(reference "J4_DISP1")
 					(unit 1)
 				)
 			)
@@ -95185,9 +95152,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "0"
-			(uuid "520fba58-83cf-41c9-8b6f-07ed06e14c70")
 		)
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
@@ -96028,7 +95992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1e2dcac-66f9-4fef-ac8e-4530c0c84fe3")
-		(property "Reference" "ANT_HF"
+		(property "Reference" "ANT_HF1"
 			(at 402.192 103.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -96107,7 +96071,7 @@
 		(instances
 			(project "LR2021_e788v01a_868_915_eval_module"
 				(path "/4d621f81-96a6-4f9d-9b52-24879b1dad45"
-					(reference "ANT_HF")
+					(reference "ANT_HF1")
 					(unit 1)
 				)
 			)

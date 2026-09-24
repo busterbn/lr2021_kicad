@@ -555,11 +555,11 @@
     "netclass_patterns": [
       {
         "netclass": "RF",
-        "pattern": "Net-(ANT_HF-Signal)"
+        "pattern": "Net-(ANT_HF1-Signal)"
       },
       {
         "netclass": "RF",
-        "pattern": "Net-(ANT_LF-Signal)"
+        "pattern": "Net-(ANT_LF1-Signal)"
       },
       {
         "netclass": "RF",
@@ -607,7 +607,7 @@
       },
       {
         "netclass": "RF",
-        "pattern": "Net-(J3_DISP-+5V)"
+        "pattern": "Net-(J3_DISP1-+5V)"
       },
       {
         "netclass": "RF",

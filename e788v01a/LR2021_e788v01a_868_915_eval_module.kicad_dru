@@ -29,7 +29,7 @@
 
 (rule "Clearance_RF_GND_Bot"
 	(layer B.Cu)
-	(condition "A.Type == 'Zone' && A.NetName == 'GND' && (B.NetName == 'Net-(ANT_HF-Signal)' || B.NetName == 'Net-(ANT_LF-Signal)')")
+	(condition "A.Type == 'Zone' && A.NetName == 'GND' && (B.NetName == 'Net-(ANT_HF1-Signal)' || B.NetName == 'Net-(ANT_LF1-Signal)')")
 	(constraint clearance (min 0.2mm)))
 
 (rule "PolygonConnect_all"
